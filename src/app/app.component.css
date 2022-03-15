@@ -1,0 +1,32 @@
+header{
+  background-color: rgb(26, 26, 36);
+  color: white;
+  margin: 0 auto;
+  padding: 0;
+  display: block;
+  width: auto;
+  min-height: 100px,
+}
+
+nav{
+  height: 80px;
+}
+
+.titulo{
+  text-align: center;
+}
+
+nav a{
+  text-decoration: none;
+  color: white;
+  padding-left: 20px;
+}
+html{
+  min-height: 100vh;
+}
+html{
+  background-image: url("../assets/logo.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+

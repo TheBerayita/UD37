@@ -1,0 +1,15 @@
+h1{
+  margin-top: 10px;
+  text-align: center;
+}
+a{
+  color:white;
+}
+.texto{
+  margin: auto;
+  width: 50%;
+  font-weight: bold;
+  color: green;
+  -webkit-text-stroke: 0.5px white;
+}
+
