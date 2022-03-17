@@ -1,0 +1,20 @@
+<div id="main-container">
+  <div id="chars-container" *ngFor="let item of arrayPersonajes">
+      <div class="char-container">
+        <img src="{{item.image}}" />
+        <br>
+        <p></p>
+        <div>{{item.id}}. </div>
+        <br>
+        <div id="char-name">{{item.name}}, </div>
+        <br>
+        <div id="char-name">{{item.status}}, </div>
+        <br>
+        <div id="char-name">{{item.species}}, </div>
+        <br>
+        <div id="char-name">{{item.gender}}, </div>
+        <br>
+        <div id="char-name">{{item.origin}}</div>
+      </div>
+  </div>
+</div>
